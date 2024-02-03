@@ -110,7 +110,7 @@ st.markdown(
         text-align: center;
         transition: transform 0.2s ease-in-out;
     }
-    .watchwise-title:hover {
+    .summascribe-title:hover {
         transform: scale(1.15);
     }
     </style>
