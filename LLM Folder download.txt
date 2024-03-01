@@ -1,2 +1,2 @@
-I am providing the link to the llm folder which you have to download and paste it in your project path;
-https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M/tree/main
+I am providing the link to the LLM folder which you have to download and paste it into your project path;
+Link: https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M/tree/main
