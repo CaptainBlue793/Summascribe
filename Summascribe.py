@@ -58,7 +58,7 @@ def add_bg_from_local(image_file):
         f"""
     <style>
     .stApp {{
-        background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
+        background-image: URL(data:image/{"png"};base64,{encoded_string.decode()});
         background-size: cover;
         opacity:0.9;
     }}
@@ -68,16 +68,16 @@ def add_bg_from_local(image_file):
     )
 
 
-add_bg_from_local("background.jpg")
+add_bg_from_local("Images/background.jpg")
 
 # Font Style
 with open("font.css") as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 # Sidebar
-st.sidebar.image("sidebar_pic.png")
-st.sidebar.title("ABOUT THE APP")
-st.sidebar.write(
+st. sidebar.image("Images/sidebar_pic.png")
+st. sidebar.title("ABOUT THE APP")
+st. sidebar.write(
     "Summascribe is a web application that simplifies PDF summarization. It uses Streamlit and LangChain "
     "to generate concise summaries by applying advanced NLP algorithms. "
 )
